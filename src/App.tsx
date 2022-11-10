@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
+import { Post } from './components/Post';
 
-const App = () => {
+const App: React.FC = () => {
   return (
-    <div>
-      <h1>type</h1>
+    <div className="App">
+      <Post />
     </div>
   );
 };
