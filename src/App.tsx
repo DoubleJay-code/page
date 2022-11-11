@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 import { Post } from './components/Post';
 
 const App: React.FC = () => {
