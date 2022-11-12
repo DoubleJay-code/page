@@ -12,6 +12,7 @@ body {
 
 .post {
   text-align: center;
+  margin-bottom: 30px;
   h2 {
     font-size: 40px;
     margin-bottom: 30px;
@@ -30,5 +31,25 @@ body {
         margin-bottom: 20px;
       }
     }
+  }
+}
+
+.commentsFlex {
+  display: flex;
+  flex-wrap: wrap;
+  .comment {
+    max-width: 333px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    .last {
+      flex: 1 1 auto;
+    }
+  }
+  .comment__card {
+    background-color: rgba($color: white, $alpha: 0.6);
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
   }
 }
